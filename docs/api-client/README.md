@@ -25,7 +25,7 @@ Including just the root URL as shown above will be sufficient in most cases. But
 
 ```js
 apiClient = new APIClient({
-  root: "https://openlaw-instance-with-basic-auth.openlaw.io",
+  root: "https://openlaw-instance-with-basic-auth.openlaw.io/api/v1/default",
   auth: {
     username: "<username>",
     password: "<password>"
